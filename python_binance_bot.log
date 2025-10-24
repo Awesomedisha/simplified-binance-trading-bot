@@ -1,0 +1,21 @@
+2025-10-24 15:55:22,875 - __main__ - INFO - Getting account balance...
+2025-10-24 15:55:48,145 - __main__ - INFO - Cancelling Order ID 5 on BTC
+2025-10-24 15:55:48,635 - __main__ - ERROR - Binance API Error cancelling order: APIError(code=-1121): Invalid symbol.
+2025-10-24 15:56:26,890 - __main__ - INFO - Placing MARKET order: {'symbol': 'BTC', 'side': 'SELL', 'quantity': 5.0}
+2025-10-24 15:56:27,060 - __main__ - ERROR - Binance API Error placing MARKET order: APIError(code=-1121): Invalid symbol.
+2025-10-24 15:58:02,986 - __main__ - INFO - Placing MARKET order: {'symbol': '"BTCUSDT"', 'side': '"SELL"', 'quantity': 5.0}
+2025-10-24 15:58:03,152 - __main__ - ERROR - Binance API Error placing MARKET order: APIError(code=-1022): Signature for this request is not valid.
+2025-10-24 15:59:32,632 - __main__ - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 5.0}
+2025-10-24 15:59:33,119 - __main__ - ERROR - Binance API Error placing MARKET order: APIError(code=-2019): Margin is insufficient.
+2025-10-24 16:01:03,087 - __main__ - INFO - Bot initialized successfully. Testnet: True
+2025-10-24 16:01:03,326 - __main__ - INFO - Connection verified. Server time: 1761301863581
+2025-10-24 16:01:03,809 - __main__ - INFO - API key has correct futures permissions
+2025-10-24 16:01:20,644 - __main__ - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 0.01}
+2025-10-24 16:01:21,156 - __main__ - INFO - Successfully placed MARKET order. Response: {'orderId': 6898286597, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1eb65d409d1b34a6cd71a0', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1761301881408}
+2025-10-24 16:05:45,011 - __main__ - INFO - Getting account balance...
+2025-10-24 20:07:04,997 - __main__ - INFO - Bot initialized successfully. Testnet: True
+2025-10-24 20:07:05,257 - __main__ - INFO - Connection verified. Server time: 1761316626426
+2025-10-24 20:07:05,443 - __main__ - INFO - API key has correct futures permissions
+2025-10-24 20:07:24,516 - __main__ - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'quantity': 1.0}
+2025-10-24 20:07:25,016 - __main__ - ERROR - Binance API Error placing MARKET order: APIError(code=-2019): Margin is insufficient.
+2025-10-24 20:10:34,661 - __main__ - INFO - Getting account balance...
